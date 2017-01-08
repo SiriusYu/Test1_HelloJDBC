@@ -31,7 +31,7 @@ public class HelloJDBC {
 		  //4.获取执行结果
 		  while(rs.next())
 		  {
-			  System.out.println("Hello! Your name:  " + rs.getString("UserName"));
+			  System.out.println("Hello~ " + rs.getString("UserName"));
 		  }
 	  } catch (SQLException e) {
 		  //异常处理
